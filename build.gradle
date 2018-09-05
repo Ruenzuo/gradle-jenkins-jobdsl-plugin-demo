@@ -43,6 +43,10 @@ dependencies {
 }
 
 jobdsl {
+   configuration = [
+        greeting: 'Hallo'
+    ]
+
     servers {
         localhost {
             jenkinsUrl = 'http://localhost:8080/'
